@@ -1,26 +1,36 @@
-## [NEXTSTEP 플레이그라운드의 미션 진행 과정](https://github.com/next-step/nextstep-docs/blob/master/playground/README.md)
+기능 요구사항
+1. 자동차의 이름을 받는다.(,로 자동차 구분)(자동차의 이름은 5글자를 초과할 수 없다)
+  (split으로 받은 이름을 array)
+2. 시도할 횟수를 받는다
+3. 자동차 별로 횟수만큼 random 숫자(0~9)를 받아 4이상일 경우 전진한다.
+   (car[] 길이만큼 random 실행 및 count)
+4. 전진하는 자동차를 출력할때 자동차의 이름을 같이 출력한다.
+   (car[i] 와 count[i]를 같이 출력)
+5. 최종 우승 자동차의 이름을 출력한다.(1개 이상 가능)
+   (count가 가장 많은 car[i] 출력)
 
----
-## 학습 효과를 높이기 위해 추천하는 미션 진행 방법
+예제
+실행 결과
+pobi : -
+crong : -
+honux : -
 
----
-1. 피드백 강의 전까지 미션 진행 
-> 피드백 강의 전까지 혼자 힘으로 미션 진행. 미션을 진행하면서 하나의 작업이 끝날 때 마다 add, commit
-> 예를 들어 다음 숫자 야구 게임의 경우 0, 1, 2단계까지 구현을 완료한 후 push
+pobi : --
+crong : -
+honux : --
 
-![mission baseball](https://raw.githubusercontent.com/next-step/nextstep-docs/master/playground/images/mission_baseball.png)
+pobi : ---
+crong : --
+honux : ---
 
----
-2. 피드백 앞 단계까지 미션 구현을 완료한 후 피드백 강의를 학습한다.
+pobi : ----
+crong : ---
+honux : ----
 
----
-3. Git 브랜치를 master 또는 main으로 변경한 후 피드백을 반영하기 위한 새로운 브랜치를 생성한 후 처음부터 다시 미션 구현을 도전한다.
+pobi : -----
+crong : ----
+honux : -----
 
-```
-git branch -a // 모든 로컬 브랜치 확인
-git checkout master // 기본 브랜치가 master인 경우
-git checkout main // 기본 브랜치가 main인 경우
-
-git checkout -b 브랜치이름
-ex) git checkout -b apply-feedback
-```
+pobi : -----
+crong : ----
+honux : -----
